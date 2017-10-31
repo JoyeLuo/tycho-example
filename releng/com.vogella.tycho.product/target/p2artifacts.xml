@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='5'>
+  <artifact classifier='binary' id='Tycho.executable.gtk.linux.x86' version='1.0.0.201710311102'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.vogella.tycho'/>
+      <property name='maven-artifactId' value='com.vogella.tycho.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='Tycho.executable.gtk.linux.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='Tycho.executable.win32.win32.x86' version='1.0.0.201710311102'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.vogella.tycho'/>
+      <property name='maven-artifactId' value='com.vogella.tycho.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='Tycho.executable.win32.win32.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='Tycho.executable.cocoa.macosx.x86_64' version='1.0.0.201710311102'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.vogella.tycho'/>
+      <property name='maven-artifactId' value='com.vogella.tycho.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='Tycho.executable.cocoa.macosx.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='Tycho.executable.win32.win32.x86_64' version='1.0.0.201710311102'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.vogella.tycho'/>
+      <property name='maven-artifactId' value='com.vogella.tycho.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='Tycho.executable.win32.win32.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='Tycho.executable.gtk.linux.x86_64' version='1.0.0.201710311102'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.vogella.tycho'/>
+      <property name='maven-artifactId' value='com.vogella.tycho.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='Tycho.executable.gtk.linux.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+</artifacts>

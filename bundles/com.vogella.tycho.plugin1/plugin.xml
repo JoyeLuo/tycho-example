@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <content-type
+            file-extensions="project"
+            base-type="org.eclipse.core.runtime.text"
+            name="com.vogella.tycho.plugin1.project"
+            id="com.vogella.tycho.plugin1.project">
+      </content-type>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editorContentTypeBinding
+            contentTypeId="com.vogella.tycho.plugin1.project"
+            editorId="org.eclipse.ui.genericeditor.GenericEditor">
+      </editorContentTypeBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.genericeditor.presentationReconcilers">
+      <presentationReconciler
+            class="com.vogella.tycho.plugin1.ProjectReconciler"
+            contentType="com.vogella.tycho.plugin1.project">
+      </presentationReconciler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.genericeditor.hoverProviders">
+      <hoverProvider
+            class="com.vogella.tycho.plugin1.ProjectHoverProvider"
+            contentType="com.vogella.tycho.plugin1.project">
+      </hoverProvider>
+   </extension>
+   <extension
+         point="org.eclipse.ui.genericeditor.contentAssistProcessors">
+      <contentAssistProcessor
+            class="com.vogella.tycho.plugin1.ProjectContentAssistProcessor"
+            contentType="com.vogella.tycho.plugin1.project">
+      </contentAssistProcessor>
+   </extension>
+   <extension
+         point="org.eclipse.core.filebuffers.documentSetup">
+      <participant
+            contentTypeId="com.vogella.tycho.plugin1.project"
+            extensions="project"
+            class="com.vogella.tycho.plugin1.ValidatorDocumentSetupParticipant">
+      </participant>
+   </extension>
+
+</plugin>

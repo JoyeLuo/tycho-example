@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.vogella.tycho.rcp;singleton:=true
+Bundle-Name: Rcp
+Bundle-Version: 1.0.0.201710311102
+Require-Bundle: javax.inject;bundle-version="0.0.0", org.eclipse.core.
+ runtime;bundle-version="0.0.0", org.eclipse.swt;bundle-version="0.0.0
+ ", org.eclipse.e4.ui.model.workbench;bundle-version="0.0.0", org.ecli
+ pse.jface;bundle-version="0.0.0", org.eclipse.e4.ui.services;bundle-v
+ ersion="0.0.0", org.eclipse.e4.ui.workbench;bundle-version="0.0.0", o
+ rg.eclipse.e4.core.di;bundle-version="0.0.0", org.eclipse.e4.ui.di;bu
+ ndle-version="0.0.0", org.eclipse.e4.core.contexts;bundle-version="0.
+ 0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: VOGELLA
+

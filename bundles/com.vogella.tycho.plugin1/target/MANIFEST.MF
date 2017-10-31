@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.vogella.tycho.plugin1;singleton:=true
+Bundle-Name: Plugin1
+Bundle-Version: 1.0.0.201710311102
+Require-Bundle: org.eclipse.core.runtime, org.eclipse.ui, org.eclipse.
+ jface.text, org.eclipse.ui.editors, org.eclipse.ui.genericeditor, org
+ .eclipse.core.filebuffers, org.eclipse.core.resources
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: VOGELLA
+

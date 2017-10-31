@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='201710311102.tychoexample' version='1.0.0.2--cKzsnh7735G53955537'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Tycho example'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201710311102.tychoexample' version='1.0.0.2--cKzsnh7735G53955537'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.vogella.tycho.feature.feature.group' range='[1.0.0.201710311102,1.0.0.201710311102]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
